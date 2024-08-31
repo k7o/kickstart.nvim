@@ -632,30 +632,6 @@ require('lazy').setup({
             },
           },
         },
-        -- yamlls = {
-        --   settings = {
-        --     yaml = {
-        --       schemas = {
-        --         kubernetes = '/*.yaml',
-        --       },
-        --     },
-        --   },
-        -- },
-        -- azure_pipelines_ls = {
-        --   settings = {
-        --     yaml = {
-        --       schemas = {
-        --         ['https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json'] = {
-        --           '/azure-pipeline*.y*l',
-        --           '/*.azure*',
-        --           'Azure-Pipelines/**/*.y*l',
-        --           '.azuredevops/**/*.y*l',
-        --           'Pipelines/*.y*l',
-        --         },
-        --       },
-        --     },
-        --   },
-        -- },
       }
 
       -- Ensure the servers and tools above are installed
@@ -953,7 +929,7 @@ require('lazy').setup({
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
