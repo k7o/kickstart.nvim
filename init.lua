@@ -698,30 +698,6 @@ require('lazy').setup({
             },
           },
         },
-        -- yamlls = {
-        --   settings = {
-        --     yaml = {
-        --       schemas = {
-        --         kubernetes = '/*.yaml',
-        --       },
-        --     },
-        --   },
-        -- },
-        -- azure_pipelines_ls = {
-        --   settings = {
-        --     yaml = {
-        --       schemas = {
-        --         ['https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json'] = {
-        --           '/azure-pipeline*.y*l',
-        --           '/*.azure*',
-        --           'Azure-Pipelines/**/*.y*l',
-        --           '.azuredevops/**/*.y*l',
-        --           'Pipelines/*.y*l',
-        --         },
-        --       },
-        --     },
-        --   },
-        -- },
       }
 
       -- Ensure the servers and tools above are installed
@@ -1008,12 +984,8 @@ require('lazy').setup({
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  -- { import = 'custom.plugins' },
-  --
-  -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
-  -- Or use telescope!
-  -- In normal mode type `<space>sh` then write `lazy.nvim-plugin`
-  -- you can continue same window with `<space>sr` which resumes last telescope search
+  --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
+  { import = 'custom.plugins' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
