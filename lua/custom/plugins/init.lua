@@ -15,7 +15,9 @@ return {
     event = 'VeryLazy',
   },
   {
-    'someone-stole-my-name/yaml-companion.nvim',
+    -- 'some-stole-my-name' is the official repo, but contains deprecated references, this is fixed in 'mosheavni's repo.
+    -- 'someone-stole-my-name/yaml-companion.nvim',
+    'mosheavni/yaml-companion.nvim',
     dependencies = {
       'neovim/nvim-lspconfig',
       'nvim-lua/plenary.nvim',
