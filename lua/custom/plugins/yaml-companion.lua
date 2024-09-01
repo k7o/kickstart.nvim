@@ -98,5 +98,8 @@ return {
         },
       }
     end,
+    keys = {
+      { '<leader>ys', ':Telescope yaml_schema<cr>', desc = 'Yaml Schema - Change' },
+    },
   },
 }
