@@ -3,15 +3,10 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  {
-    'b0o/schemastore.nvim',
-  },
-  {
-    'tpope/vim-commentary',
-  },
-  {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' },
-    event = 'VeryLazy',
-  },
+  require 'custom.plugins.schemastore',
+  require 'custom.plugins.lualine',
+  require 'custom.plugins.vim-commentary',
+  require 'custom.plugins.copilot',
+  require 'custom.plugins.copilot-chat',
+  require 'custom.plugins.yaml-companion',
 }
