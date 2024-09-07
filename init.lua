@@ -700,6 +700,8 @@ require('lazy').setup({
         },
         yamlls = {},
         regal = {},
+        gopls = {},
+        omnisharp = {},
       }
 
       -- Ensure the servers and tools above are installed
