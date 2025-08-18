@@ -6,7 +6,5 @@ return {
   require 'custom.plugins.schemastore',
   require 'custom.plugins.lualine',
   require 'custom.plugins.vim-commentary',
-  require 'custom.plugins.copilot',
-  require 'custom.plugins.copilot-chat',
   require 'custom.plugins.yaml-companion',
 }
